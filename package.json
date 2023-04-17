@@ -1,0 +1,23 @@
+{
+  "name": "sql-service",
+  "version": "1.0.0",
+  "main": "handlerGet.js",
+  "devDependencies": {
+    "semantic-release": "^21.0.1"
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
