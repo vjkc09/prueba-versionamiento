@@ -5,6 +5,12 @@
   "devDependencies": {
     "semantic-release": "^21.0.1"
   },
+  "release": {
+    "branches": [
+      "main",
+      "dev"
+    ]
+  },
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
